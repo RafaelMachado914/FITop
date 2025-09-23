@@ -1,0 +1,34 @@
+body {
+    background-color: #01ffb7;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.navbar-custom {
+    background-color: #31aece;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-family: "Bytesized", sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
