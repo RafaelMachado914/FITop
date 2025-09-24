@@ -32,3 +32,44 @@ h1 {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
+input {
+    margin: 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    text-shadow:
+        -1px -1px 0 rgb(94, 51, 163),
+        1px -1px 0 rgb(149, 40, 199),
+        -1px 1px 0 rgb(168, 82, 224),
+        1px 1px 0 rgb(195, 108, 230);
+
+}
+.calculo{
+    margin-top: 32px;
+    text-align: center;
+}
+button{
+    border: none;
+    border-radius: 25px;
+    color: #31aece;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.cl-IMC{
+    border-radius: 50%;
+}
+.percentual{
+    text-align: center;
+}
+#resultado{
+    font-family: 'Courier New', Courier, monospace;
+}
